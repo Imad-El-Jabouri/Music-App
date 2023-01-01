@@ -69,8 +69,6 @@ function updateTime() {
   if (audio.ended) {
     /* Pause audio music */
     Pause();
-    /* Also stop image from rotate */
-    remove_rotate_image_class();
   }
 }
 

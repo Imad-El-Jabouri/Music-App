@@ -108,8 +108,7 @@
   cursor: pointer;
   display: block;
   height: 14px;
-  -webkit-transform: translateY(-7px);
-  -moz-transform: translateY(0);
+  transform: translateY(-7px);
   width: 14px;
 }
 .radio input[type=range]::-moz-range-thumb {
@@ -121,8 +120,6 @@
   cursor: pointer;
   display: block;
   height: 14px;
-  -webkit-transform: translateY(-7px);
-  -moz-transform: translateY(0);
   width: 14px;
 }
 .radio input[type=range]::-ms-thumb {
@@ -133,8 +130,8 @@
   cursor: pointer;
   display: block;
   height: 14px;
-  -webkit-transform: translateY(-7px);
-  -moz-transform: translateY(0);
+  transform: translateY(-7px);
+  transform: translateY(0);
   width: 14px;
 }
 .radio input[type=range]::-webkit-slider-runnable-track {
